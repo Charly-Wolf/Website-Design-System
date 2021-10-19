@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    font-family: 'Noto Sans Mono', sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 26px;
+    font-family: "Noto Sans Mono";
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Montserrat;
+    margin-top: 15px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 15px;
+    font-family: ubuntu;
+}
+
+header {
+    background-color: midnightblue;
+    text-align: center;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    width: 100%;
+}
+
+header h1 {
+    color: azure;
+    padding: 20px;
+}
+
+nav li {    
+    display: inline-block;
+    margin: 0 100px 20px;
+    font-size: 18px;
+}
+
+nav a {
+    color: tomato;    
+    text-decoration: none;
+}
+
+main {
+    margin: auto 5%;
+    position: relative;
+    min-height: 100vh;
+    top: 150px;
+    padding-bottom: 70px
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    padding: 5px; 
+    z-index: 4;
+    text-align: center;
+    background-color: midnightblue;
+    color: azure;
+}
+
+section {
+    border: 1px solid tomato;
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.midnightblue {
+    background-color: midnightblue;
+    color: azure;
+}
+
+.tomato {
+    background-color: tomato;
+    color: azure;
+}
+
+.azure {
+    background-color: azure;
+    color: midnightblue;
+    border: solid 1px midnightblue;
+}
+
+.color-panel p {
+    margin: 15px;
+}
+
+.font-panel {
+    display: inline-block;
+    width: 45%;
+    margin: 10px auto;
+}
+
+.font-panel p {
+    margin: 8px auto;
+}
+
+.font-label {
+    text-decoration: underline;
+}
+
+.noto-sans-mono {
+    font-family: 'Noto Sans Mono', sans-serif;
+}
+
+.montserrat {
+    font-family: montserrat
+}
+
+.ubuntu {
+    font-family: ubuntu;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.text-panel {
+    margin: 15px auto;
+}
+
+.style-title {
+    margin: 10px auto;
+}
+
+.text-panel ul {
+    margin-left: 50px
+}
+
+.my-name {
+    color: tomato;
+    font-weight: bold;
+}
